@@ -1,0 +1,3 @@
+Adafruit CircuitPython 9.0.0-alpha.5 on 2023-11-15; Adafruit-Qualia-S3-RGB666 with ESP32S3
+Board ID:adafruit_qualia_s3_rgb666
+UID:CEADB349720E

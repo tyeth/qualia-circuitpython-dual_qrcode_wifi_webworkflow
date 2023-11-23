@@ -1,0 +1,37 @@
+# FILEPATH: /e:/pyproject.toml
+
+[tool.poetry]
+name = "my_project"
+version = "0.1.0"
+description = "My CircuitPython project"
+authors = ["Your Name <ra@ra.com>"]
+license = "MIT"
+homepage = ""
+repository = ""
+readme = ""
+keywords = ["circuitpython"]
+classifiers = ["Development Status :: 4 - Beta", "Programming Language :: Python :: 3"]
+packages = []
+include = ["pyproject.toml", "README.md", "LICENSE"]
+exclude = ["tests/*"]
+scripts = []
+plugins = { "circuitpython": { "enabled": true } }
+
+
+[tool.circup]
+dependencies = ["adafruit_qualia"]
+
+[tool.circuitpython]
+board = "feather_m4_express"
+
+[circup]
+circup_dependencies = ["adafruit_qualia"]
+
+[package]
+name = "my_project"
+version = "0.1.0"
+description = "My CircuitPython project"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+homepage = "https://github.com/yourusername/my_project"
+repository = "https://github.com/yourusername/my_project.git"
